@@ -1,0 +1,84 @@
+Topics:
+  1. What is the difference between supervised and unsupervised learning?
+  2. What is classification?
+  3. How to preprocess data using various methods
+  4. What is label encoding?
+  5. How to build a logistic regression classifier
+  6. What is Naive Bayes classifier?
+  7. What is a confusion matrix?
+  8. What are Support Vector Machines and how to build a classifier based on that?
+  9. What is linear and polynomial regression?
+ 10. How to build a linear regressor for single variable and multivariable data
+ 11. How to estimate hosing prices using Support Vector Regressor
+
+Suppervised versus unsupervised learning
+* One of the most common ways to impart artificial intelligence into a machine is
+  through machine learning.
+* Machine learning is broadly divided into superivsed and unsupervised learning. There
+  are other divisions too, but we'll discuss those later.
+* Supervised learning is the process of building a machine learning model that is based
+  on labeled training data.
+* Unsupervised learning is the process of building a machine learning model without
+  relying on labeled training data. In this sense the data needs to be grouped based on
+  the data itself with no formal criteria of separation.
+
+What is classification?
+* The process of classification is a technique where we classify data into a given number
+  of classifications.
+* In machine learning, classification solves the problem of identifying the category to which
+  a new data point belongs.
+* We build the classification model based on the training dataset containing data points and
+  the corresponding labels.
+* A good classification system makes it easy to find and retrieve data.
+
+Preprocessing data
+* Machine learning algorithms expect data to be formatted in a certain way before they
+  start the training process.
+* There are several preprocessing techniques:
+    1. Binarization
+    2. Mean removal
+    3. Scaling
+    4. Normalization
+
+Label Encoding
+* When performing classification techniques, labels need to be used and may need to be
+  to be used in the process.
+
+Logistic Regression classifier
+* Logisitc regression is a technique that is used to explain the relationship between
+  input variables and output variables.
+* The input variables are assumed to be independent and the output variable is referred
+  to as the dependent variable.
+* The dependent variable can take only a fixed set of values. These values correspond to
+  the classification problem.
+* The goal is to identify the relationship between the independent variables and the
+  dependent variables by estimating the probabilities using a logistic function.
+* A popular logistic function to use is the sgmoid curve.
+* This is very closely related to generalized linear model analysis, where we try to fit
+  a line to a bunch of points to minimize the error. However, instead of using linear
+  regression, we use logistic regression.
+
+Naive Bayes classifier
+* This is a technique used to build classifiers using Bayes theorem.
+* Bayes theorem describes the probability of an event occurring based on different conditions
+  that are related to this event.
+* We build a Naive Bayes calssifier by assigning class labels to problem instances. These
+  problem instances are represented as vectors of feature values.
+* The assumption here is that the value of any given feature is independent of the value of
+  any other feature. This is called the independence assumption, which is the naive part
+  of a Naive Bayes classifier.
+
+Confusion matrix
+* This is a figure or a table that is used to describe the performance of a classifier.
+* It is usually extracted from a test dataset for which the ground truth is known.
+* We compare each class with every other class and see how many samples are misclassified.
+* During the construction of this table, we actually come across several key metrics that
+  are very important in the field of machine learning.
+
+Support Vector Machines
+* This is a classifier that is defined using a separating hyperplane between the classes.
+  This hyperplane is the N-dimensional version of a line.
+* Given labeled training data and a binary classification problem, the SVM finds the
+  optimal hyperplane that separates the training data into two classes.
+* This can be extended to the problem with N classes.
+

@@ -1,0 +1,15 @@
+supervised learning
+unsupervised learning
+data classification problem
+preprocessing data
+label encoding
+label encoder
+logistic regression
+logistic regression classifier
+Naive Bayes classifier
+Confusion matrix
+Support Vector Machines
+Regression
+linear regression
+polynomial regression
+Support Vector Regressor
